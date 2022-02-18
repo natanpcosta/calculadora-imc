@@ -1,0 +1,44 @@
+:root{
+--azul-escuro: #3E497A;
+--amarelo-forte: #F1D00A;
+
+}
+.calculadora {
+    border: 2px solid var(--azul-escuro);
+    width: 350px;
+    height: 285px;
+    background: var(--azul-escuro);
+    color: var(--amarelo-forte);
+}
+h1{
+    position: relative;
+    
+    text-align: center;
+}
+
+.content{
+    position: relative;
+}
+
+.input, label, button{
+    display: inline-block;
+    text-align: center;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+label{
+    width: 15%;
+}
+input{
+    width: 75%;
+}
+button{
+    position: absolute;
+    left: 50%;
+    bottom: -40px;
+    transform: translateX(-50%);
+    text-align: center;
+    padding: 5px 20px 5px 20px;
+    font-size: 16px;
+}
